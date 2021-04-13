@@ -1,0 +1,41 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	background: linear-gradient(120deg, #2980b9, #8c44ad)
+}
+
+#main-content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 20em;
+}
+
+#main {
+	height: 300px;
+	width: 1004;
+}
+
+.display-1 {
+	color: black;
+}
+
+.button {
+	background-color: #1E90FF; /*#4CAF50; /* Green */
+	border: 2px solid #1E90FF;
+	border-radius: 6px;
+	color: white;
+	padding: 10px 119px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition: 0.4s;
+}
+
+.button:hover {
+	border: 2px solid #1E90FF;
+	background-color: transparent;
+	color: black;
+}
